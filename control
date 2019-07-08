@@ -1,0 +1,9 @@
+Package: com.maxbridgland.schmusic
+Name: Schmusic
+Depends: ws.hbang.common (>= 1.11)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: The Start of iOS 13 Music App on Pre-iOS 13
+Maintainer: maxb
+Author: maxb
+Section: Tweaks

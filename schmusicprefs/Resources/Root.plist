@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>headerCellClass</key>
+				<string>HBImageTableCell</string>
+				<key>height</key>
+				<integer>400</integer>
+				<key>icon</key>
+				<string>banner.png</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Schmusic Settings (Restart Music App to Apply)</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<true/>
+				<key>defaults</key>
+				<string>com.maxbridgland.schmusic</string>
+				<key>label</key>
+				<string>Enable Schmusic</string>
+				<key>key</key>
+				<string>kEnabled</string>
+				<key>alternateColors</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.maxbridgland.schmusic</string>
+				<key>label</key>
+				<string>Enable Light Blur</string>
+				<key>key</key>
+				<string>kLight</string>
+				<key>alternateColors</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Credits</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>HBTwitterCell</string>
+				<key>label</key>
+				<string>Max</string>
+				<key>user</key>
+				<string>MaxBridgland</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>Special Thanks</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>HBTwitterCell</string>
+				<key>label</key>
+				<string>Maxwell Dausch</string>
+				<key>user</key>
+				<string>M_Dausch</string>
+			</dict>
+			<dict>
+				<key>cellClass</key>
+				<string>HBTwitterCell</string>
+				<key>label</key>
+				<string>Tony</string>
+				<key>user</key>
+				<string>tonerk7</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>Schmusic</string>
+	</dict>
+</plist>
